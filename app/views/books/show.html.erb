@@ -1,6 +1,7 @@
-<% flash [:notice] %>
+<% flash[:notice] %>
 
 <h3>title:</h3>
+
 <p><%= @book.title %></p>
 
 <h3>body:</h3>
@@ -10,4 +11,4 @@
 
 <th>|</th>
 
-<%= link_to 'back', 'javascript:history.back()' %>
+<%= link_to 'back',books_path %>
